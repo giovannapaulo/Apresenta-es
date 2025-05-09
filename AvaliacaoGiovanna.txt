@@ -1,0 +1,45 @@
+
+
+Equipe 01
+(Pedro, Reinaldo, Victoria, Matheus)
+Tema: Carbuy
+Nota: 05
+
+Equipe 02
+Tema: NutriRede
+(Lorena, Nicoly, Kevin, Talia)
+Nota: 05
+
+Equipe 03
+(Maycon, Renan, Gustavo, Luiz, Gabriel)
+Tema: Anime
+Nota: 05
+
+Equipe 04
+(Camila, Giovanna, Ana Julia, Isabelly, Layssa)
+Tema: BookBox
+Nota: 05
+
+Equipe 05
+(Gaspar, Arthur, Vinicius, Joao, Maria)
+Tema: AdoPet
+Nota: 03
+
+Equipe 06
+Tema: Panela Velha
+(Matheus, Paulo, João, Lucas, Kayky)
+Nota: 05
+
+Equipe 07
+(Gabriel, Rafael, Kaian, Joao)
+Tema: HarmoCrew
+Nota: 05
+
+Equipe 08
+(Victor, Ian, Guilherme, Gabriel, Pedro)
+Tema: Estacione
+Nota: 05
+
+
+
+

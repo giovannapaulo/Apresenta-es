@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Exemplo Projeto Metodos Ageis" company="" webLink="http://" view-date="2025-12-14" view-index="0" gantt-divider-location="499" resource-divider-location="300" version="3.3.3322" locale="pt_BR">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="268" order="0"/>
+        <field id="tpd4" name="Data inicial" width="81" order="1"/>
+        <field id="tpd5" name="Data final" width="81" order="2"/>
+        <field id="tpd6" name="Duração" width="53" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#6666ff #ccccff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="210" order="0"/>
+        <field id="1" name="Função" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="Nenhum">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="4b6b93a664cf4afe9b68f546c34cf2b4" name="SensivApp" color="#6666ff" meeting="false" start="2026-02-10" duration="141" complete="14" thirdDate="2022-11-21" thirdDate-constraint="0" expand="true">
+            <task id="1" uid="5f22750c6c7d411187581d33350c2176" name="Fase 1 - Definição do Projeto" color="#8cb6ce" meeting="false" start="2026-02-10" duration="35" complete="87" thirdDate="2022-11-21" thirdDate-constraint="0" expand="true">
+                <task id="29" uid="59b4e25aad454742998ee3f0a2c3d8d8" name="Abertura do Projeto" color="#8cb6ce" meeting="true" start="2026-02-10" duration="0" complete="100" thirdDate="2025-08-04" thirdDate-constraint="0" expand="true">
+                    <depend id="2" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="2" uid="d75d6fa2eefb4040bf5f7caf0c3c9f02" name="Nivelamento de Conhecimentos" color="#8cb6ce" meeting="false" start="2026-02-24" duration="6" complete="100" thirdDate="2022-11-21" thirdDate-constraint="0" expand="true">
+                    <depend id="30" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="28" uid="8fc55ca9f15c4732993464d21764a837" name="Orientações e Documentação Padrão" color="#8cb6ce" meeting="false" start="2026-03-10" duration="1" complete="100" thirdDate="2025-08-01" thirdDate-constraint="0" expand="true"/>
+                <task id="30" uid="d78e95b54fb64d08817cffda708496fe" name="Definição da Equipe e do Projeto" color="#8cb6ce" meeting="false" start="2026-03-10" duration="1" complete="0" thirdDate="2025-08-04" thirdDate-constraint="0" expand="true">
+                    <depend id="31" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="31" uid="cb02f6f0313f480981e6bdcb352ad71c" name="Entrega do CANVAS" color="#8cb6ce" meeting="true" start="2026-03-17" duration="0" complete="100" thirdDate="2025-08-04" thirdDate-constraint="0" expand="false">
+                    <depend id="33" type="2" difference="0" hardness="Rubber"/>
+                </task>
+            </task>
+            <task id="32" uid="354ae2237d734d0aa7e9d30e7e9f6a2b" name="Fase 2 - Pacote 01" meeting="false" start="2026-03-24" duration="21" complete="100" expand="true">
+                <task id="33" uid="47adc01cd5224dff95c86524b9b2e95c" name="Definição do Product Backlog" color="#8cb6ce" meeting="false" start="2026-03-24" duration="3" complete="100" thirdDate="2025-08-04" thirdDate-constraint="0" expand="true">
+                    <depend id="44" type="1" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="44" uid="62dbfa1b4daf411f8708ba3bf4363a66" name="Levantamento de Funcionalidades:" meeting="false" start="2026-03-26" duration="1" complete="100" thirdDate="2026-03-26" thirdDate-constraint="1" expand="true">
+                    <depend id="45" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="45" uid="df1bd3be790e42388572b09dc00cbb08" name="Planejamento de Sprints" meeting="false" start="2026-04-06" duration="1" complete="100" thirdDate="2026-04-06" thirdDate-constraint="1" expand="true">
+                    <depend id="46" type="2" difference="-5" hardness="Strong"/>
+                </task>
+                <task id="46" uid="81cfa93f4810415f9e581cd4a06d939b" name="Revisão e organização do backlog final" meeting="false" start="2026-04-02" duration="1" complete="100" thirdDate="2026-04-02" thirdDate-constraint="1" expand="true">
+                    <depend id="35" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="35" uid="d281a92780c14a69a29b9467de39b637" name="Entrega do Pacote 01" color="#8cb6ce" meeting="true" start="2026-04-14" duration="0" complete="0" thirdDate="2025-08-04" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="36" uid="0bbd5b31c25c438b8a67cf7b09bfbe07" name="Fase 3 - Pacote 03" meeting="false" start="2026-04-07" duration="35" complete="2" expand="true">
+                <task id="37" uid="83a3c073f2b14567a7645a6fdee3267c" name="Início do desenvolvimento do aplicativo" color="#8cb6ce" meeting="false" start="2026-04-07" duration="10" complete="10" thirdDate="2026-04-07" thirdDate-constraint="1" expand="true">
+                    <depend id="47" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="47" uid="7fe19557b3cb4ceb906e764f023e891f" name="Implementação das funcionalidades principais" meeting="false" start="2026-04-22" duration="13" complete="0" priority="2" expand="true">
+                    <depend id="48" type="1" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="48" uid="04c1e3f5ee0c4a54b68e9de24cefdc39" name="Desenvolvimento da interface do usuário (UI)" meeting="false" start="2026-04-26" duration="9" complete="0" expand="true">
+                    <depend id="49" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="49" uid="b9e4584bfef046c098f6f664bf44e7a4" name="Testes iniciais e ajustes" meeting="false" start="2026-05-05" duration="7" complete="0" expand="true">
+                    <depend id="38" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="38" uid="9ebad08542304c47966136e4a40e8259" name="Entrega do Pacote 02" color="#8cb6ce" meeting="true" start="2026-05-12" duration="0" complete="0" thirdDate="2025-08-04" thirdDate-constraint="0" expand="true">
+                    <depend id="41" type="2" difference="19" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="42" uid="587301dfda6b4afa88a49138e22cb68f" name="Fase 4 - Finalização do Projeto" meeting="false" start="2026-05-15" duration="47" complete="0" expand="true">
+                <task id="40" uid="9a2526a86017474aa69a22030dc6af2b" name="Ajustes finais funcionalidades" color="#8cb6ce" meeting="false" start="2026-05-15" duration="3" complete="0" thirdDate="2025-09-15" thirdDate-constraint="0" expand="true">
+                    <depend id="50" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="50" uid="d22685e3edb84abf99b14aff87670519" name="Testes e validação do sistema" meeting="false" start="2026-05-18" duration="5" complete="0" expand="true">
+                    <depend id="51" type="2" difference="-1" hardness="Rubber"/>
+                </task>
+                <task id="51" uid="6dff4c6ab0c846a7a42edd32743d0d67" name="Correção de erros" meeting="false" start="2026-05-22" duration="5" complete="0" expand="true"/>
+                <task id="52" uid="28d4fe72f72844ac82a2b2adb9885bf2" name="Organização do backlog/doc" meeting="false" start="2026-05-26" duration="4" complete="0" expand="true"/>
+                <task id="53" uid="3593cc70a61a4f028be43d9e7df1227e" name="Preparação da apresentação" meeting="false" start="2026-05-30" duration="3" complete="0" expand="true"/>
+                <task id="41" uid="7a5435c1505d43c4bbe3031e4e1d074b" name="Entrega do Pacote 03" color="#8cb6ce" meeting="true" start="2026-05-31" duration="0" complete="0" thirdDate="2025-09-15" thirdDate-constraint="0" expand="true"/>
+                <task id="54" uid="b736a3e21ab54e61a567a6bde788b889" name="Fase 5 - Finalização do Projeto" meeting="false" start="2026-06-06" duration="25" complete="0" expand="true">
+                    <task id="55" uid="5b0e772a74a74a3ebd5676bb4ee3996d" name="Ajustes finais no sistema" meeting="false" start="2026-06-06" duration="4" complete="0" expand="true"/>
+                    <task id="56" uid="94b1aa6d621d4117bdc6357cefe488f1" name="Revisão geral e documentação" meeting="false" start="2026-06-10" duration="3" complete="0" expand="true">
+                        <depend id="57" type="2" difference="0" hardness="Rubber"/>
+                    </task>
+                    <task id="57" uid="f50fd4aa0ccd4e4783c888ffb34ac818" name="Validação final (testes finais)" meeting="false" start="2026-06-13" duration="4" complete="0" expand="true">
+                        <depend id="58" type="2" difference="0" hardness="Rubber"/>
+                    </task>
+                    <task id="58" uid="556a149e841547aab453c939a2d46c01" name="Preparação apresentação final" meeting="false" start="2026-06-17" duration="5" complete="0" expand="true">
+                        <depend id="59" type="2" difference="0" hardness="Rubber"/>
+                    </task>
+                    <task id="59" uid="0ee30e815b1345858b0a7a0d118c43e5" name="Ajustes finais para entrega" meeting="false" start="2026-06-22" duration="8" complete="0" expand="true">
+                        <depend id="60" type="2" difference="0" hardness="Rubber"/>
+                    </task>
+                    <task id="60" uid="ceb6acbe3a014029905028286ccbea56" name="Apresentação e Entrega Final" meeting="false" start="2026-06-30" duration="1" complete="0" expand="true"/>
+                </task>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="8" name="Giovanna Paulo" function="3" contacts="" phone=""/>
+        <resource id="9" name="Camila Pereira" function="3" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="44" resource-id="8" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="37" resource-id="8" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="47" resource-id="8" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="48" resource-id="8" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="46" resource-id="9" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="45" resource-id="9" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="49" resource-id="9" function="3" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Scrum Master"/>
+        <role id="2" name="Gerente de Projeto"/>
+        <role id="3" name="Analista Programador"/>
+        <role id="4" name="Arquiteto de Software"/>
+        <role id="5" name="Designe"/>
+        <role id="6" name="Analista de Teste"/>
+        <role id="7" name="Analista de Sistemas"/>
+    </roles>
+</project>

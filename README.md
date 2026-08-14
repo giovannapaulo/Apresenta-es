@@ -24,3 +24,7 @@ As duas empresas apresentam práticas relacionadas à segurança da informação
 d. O que surpreendeu ou chamou atenção?
 
 O que mais chamou atenção foi a diferença na quantidade e no nível de detalhamento das informações disponibilizadas publicamente por cada uma delas. A TOTVS, por ser uma empresa de capital aberto e de grande porte, apresenta uma documentação de governança muito maior e detalhada. Já a HI Tecnologia possui uma estrutura mais enxuta e disponibiliza menos informações públicas.
+
+
+
+Fonte: https://www.hitecnologia.com.br/

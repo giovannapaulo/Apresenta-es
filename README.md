@@ -1,3 +1,1 @@
 
-
-> **A TOTVS oferece consultoria especializada para ajudar seus clientes a incorporar práticas de ESG à sua estratégia digital. A proposta é criar uma jornada de sustentabilidade personalizada para cada empresa, levando em consideração suas necessidades e características. Para isso, a consultoria passa por etapas como o Mapa ESG e a Agenda da Sustentabilidade, o Roadmap Digital da Sustentabilidade e, por fim, a implementação e sustentação das ações. Dessa forma, a TOTVS busca apoiar seus clientes na transformação digital de seus negócios, utilizando a tecnologia e o planejamento estratégico para tornar as operações mais sustentáveis e alinhadas às boas práticas de ESG.**
